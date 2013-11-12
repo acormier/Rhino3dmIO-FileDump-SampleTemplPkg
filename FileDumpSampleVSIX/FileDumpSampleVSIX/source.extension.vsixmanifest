@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="FileDumpSampleVSIX..45448921-235a-48a7-8bcd-d0f3de95e06b">
+    <Name>Rhino3dmIO Describe 3dm File Content Sample</Name>
+    <Author>Robert McNeel &amp; Associates</Author>
+    <Version>0.1.0.0</Version>
+    <Description xml:space="preserve">A sample stand alone program that describes the content of 3dm files using OpenNURBS (Rhino3dmIO.dll-x86-Windows NuGet package) which it automatically downloads.</Description>
+    <Locale>1033</Locale>
+    <License>LegalStuff.rtf</License>
+    <GettingStartedGuide>http://wiki.mcneel.com/developer/opennurbs/home</GettingStartedGuide>
+    <Icon>Rhino3D-140x140.jpeg</Icon>
+    <PreviewImage>Rhino3D-140x140.jpeg</PreviewImage>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="" />
+  </Identifier>
+  <References>
+    <Reference Id="NuPackToolsVsix.Microsoft.67e54e40-0ae3-42c5-a949-fddf5739e7a5" MinVersion="1.7.30402.9028">
+     <Name>NuGet Package Manager</Name>
+     <MoreInfoUrl>http://docs.nuget.org/</MoreInfoUrl>
+    </Reference>
+  </References>
+  <Content>
+    <ProjectTemplate>T</ProjectTemplate>
+  </Content>
+</Vsix>
